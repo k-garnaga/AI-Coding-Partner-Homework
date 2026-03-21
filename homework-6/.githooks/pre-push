@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+python .claude/hooks/coverage-gate.py --git-hook
